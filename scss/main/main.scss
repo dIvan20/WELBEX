@@ -1,0 +1,38 @@
+@import "../reset/reset";
+@import "../main/nav";
+@import "../main/content";
+@import "../main/footer";
+@import "../main/responsible";
+
+// font
+@font-face {
+  font-family: Montserrat;
+  src: url(/font/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Inter;
+  src: url(/font/Inter-VariableFont_slnt\,wght.ttf);
+}
+// font
+
+.container {
+  max-width: 1100px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+body {
+  background-color: #0e1014;
+  color: #fff;
+  font-family: Montserrat;
+  background-image: url(/img/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: #fff;
+}
+.btn {
+  padding: 1.5vw 2.25vw;
+  background-color: #4077f3;
+  margin-top: 60px;
+}

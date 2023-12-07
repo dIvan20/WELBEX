@@ -1,0 +1,51 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5em;
+}
+.title {
+  font-size: 3.5vw;
+  font-family: inter;
+  max-width: 7em;
+}
+.color-text {
+  background: linear-gradient(45deg, #fcb045, #ff3f78);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.subtitle {
+  font-size: 1.5vw;
+  margin-top: 30px;
+  font-weight: 300;
+}
+.bonus {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  align-items: end;
+  font-size: 1.25vw;
+}
+.bonus-title {
+  font-size: 1vw;
+  max-width: 20em;
+  font-size: 1.25vw;
+}
+.bonus-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+}
+.bonus-card {
+  max-width: 10em;
+  h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  P {
+    margin-top: 6px;
+  }
+}

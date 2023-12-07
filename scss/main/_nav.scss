@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.logo {
+  p {
+    max-width: 15em;
+    font-size: 0.7vw;
+    font-family: Montserrat;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.nav-list {
+  display: flex;
+}
+.list-item {
+  margin-left: 30px;
+  &:first-child {
+    margin-left: 0;
+  }
+  font-size: 1vw;
+  font-family: Inter;
+  font-weight: 500;
+}
+.contacts {
+  :nth-child(1) {
+    margin: 0;
+  }
+  a {
+    margin-left: 30px;
+  }
+  :first-child a {
+    margin-left: 45px;
+  }
+  font-size: 1vw;
+}
